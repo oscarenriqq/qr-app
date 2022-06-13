@@ -22,9 +22,9 @@ function App() {
             </ul>
         </div>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/new-user' element={<NewUser/>} />
-          <Route path='/users' element={<Users />} />
+          <Route path='/qr-app/' element={<Home/>} />
+          <Route path='/qr-app/new-user' element={<NewUser/>} />
+          <Route path='/qr-app/users' element={<Users />} />
         </Routes>
     </div>
   );
