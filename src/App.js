@@ -11,13 +11,13 @@ function App() {
             <h1 className="display-4 text-center mt-4"> QR App </h1>
             <ul className="nav justify-content-center">
               <li className="nav-item">
-                <Link to='/' className="nav-link active">Home</Link>
+                <Link to='/qr-app/' className="nav-link active">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/new-user" className="nav-link">Nuevo usuario</Link>
+                <Link to="/qr-app/new-user" className="nav-link">Nuevo usuario</Link>
               </li>
               <li className="nav-item">
-                <Link to="/users" className="nav-link">Lista de usuarios</Link>
+                <Link to="/qr-app/users" className="nav-link">Lista de usuarios</Link>
               </li>
             </ul>
         </div>
